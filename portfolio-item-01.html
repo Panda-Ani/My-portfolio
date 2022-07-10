@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial scale=1.0" />
+    <title>Aniruddha's Website</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="What I do.jpeg" alt="" />
+      </div>
+      <button class="nav_toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="index.html" class="nav_link">Home</a></li>
+          <li class="nav_item">
+            <a href="index.html#services" class="nav_link">My Hobbies</a>
+          </li>
+          <li class="nav_item">
+            <a href="index.html#about" class="nav_link">About me</a>
+          </li>
+          <li class="nav_item"><a href="index.html#work" class="nav_link">My work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="intro" >
+      <h1 class="section_title-intro">
+        <strong>Sudoku Game</strong>
+      </h1>
+      <p class="section_subtitle-intro">Using Python</p>
+      <img src="python-programming-minimalism-grey-technology-hd-wallpaper-preview.jpeg" alt="My picture" class="intro_img" />
+    </section>
+
+    <div class="portfolio_item-individual">
+        <p>Python is a potent language that is used for a variety of works. Some significant works include machine learning, web development, game development, etc. Here I have made a simple Sudoku game using Python and given it a minimalistic GUI using the Pygame library.</p>
+        <img src="Sudoku-RIddles-Game-Quiz-Shutterstock.webp" alt="My picture">
+        <p>
+          A typical game of Sudoku Contains 9 rows and 9 columns, and the 9×9 matrix is divided further into a 3×3 matrix. The rule of the game is that no two same numbers can be on the same row or column or the same 3×3 box.
+        </p>
+        <p>
+          Here I have used a bunch of functions to make the GUI, such as to take input, display the board, erase the previous answer, and Made a timer to show the user the time taken by them. The board will be filled automatically if you click an empty place and enter space. It uses the Backtracking Algorithm to solve the problem. Which is better than the brute force recursive algorithm as it rejects the unnecessary steps to check 9<sup>81</sup> possible solutions in brute force.  
+        </p>
+        <p>
+          Here is the link of the game to my GitHub repository <a href="https://github.com/Panda-Ani/Sudoku-Game">Sudoku Game</a> run the code, play the game and enjoy!
+        </p>
+    </div>
+
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:aniruddhapanda2020@gmail.com" class="footer_link">helloAni@gmail</a>
+      <ul class="social-list">
+        <li>
+          <a
+            class="social-list_item"
+            href="https://www.linkedin.com/in/aniruddha-panda-18b35b1bb/"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a class="social-list_item" href="https://github.com/Panda-Ani"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="social-list_item"
+            href="https://www.facebook.com/aniruddh.panda/"
+            ><i class="fa fa-facebook-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="social-list_item"
+            href="https://www.instagram.com/i._aniruddha/"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>

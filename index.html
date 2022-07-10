@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial scale=1.0" />
+    <title>Aniruddha's Website</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo red.jpeg" alt="" />
+      </div>
+      <button class="nav_toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+          <li class="nav_item">
+            <a href="#services" class="nav_link">My Hobbies</a>
+          </li>
+          <li class="nav_item">
+            <a href="#about" class="nav_link">About me</a>
+          </li>
+          <li class="nav_item"><a href="#work" class="nav_link">My work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+      <h1 class="section_title-intro">
+        Hi, I am <strong>Aniruddha Panda</strong>
+      </h1>
+      <p class="section_subtitle-intro">3rd year UG student, IIT Kharagpur</p>
+      <img src="Adda.jpg" alt="My picture" class="intro_img" />
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+      <h2 class="section_title-services">My Hobbies</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Competitive Programming</h3>
+          <p>
+            Well! I think my programming journey might have started pretty late, nevertheless. 
+            I am glad that I came to know about it. So, my journey began in the second semester of the first year of my college.
+            And suddenly, I took a liking to it. Mainly, Competitive programming, as I like 
+            promblem solving from my childhood days.
+
+          </p>
+        </div>
+        <div class="service">
+          <h3>Development</h3>
+          <p>
+            Yes, I love Competitive programming. But it felt like it was lacking something. Don't you think the same?
+            Yes, you got it right. The actual life implementation, after I enjoyed Competitive programming, I continued my
+            journey and found out its application. And it was thrilling after getting the code to work after several hours of 
+            debugging and when the program works as it is supposed to work is the most satisfying feeling.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Extracurricular activities</h3>
+          <p>
+            Being a curious person, I participate in many activities, which range in the field of Social and Cultural activities
+            to Sports. So, at present, I am on the basketball team of my hall in IIT Kharagpur and currently learning Indian
+            Classical Vocals apart from these activities, I like going to the gym and being regular in my activities.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about_me" id="about">
+      <h2 class="section_title-about">Who I am</h2>
+      <p class="section_subtitle-about">Times person of the year(2006)</p>
+      <div class="about_me-body">
+        <p>
+            I have completed my 10th standard from Vikash residential school, Bargarh, and my 12th from Dav public school, Chandrasekharpur. I am pursuing my BTech in Mining Engineering from the Indian Institute of Technology, Kharagpur.
+        </p>
+        <p>
+            I like being involved in events in my present. I am part of The KGPian Game Theory Society(I never heard about game theory then, I strongly recommend you to check out its interesting). The Governor of Manga and Anime Society Kharagpur(Yes, Animes are also excellent). And I am involved in departmental events and hall events.    
+        </p>
+      </div>
+      <img src="Sunset.jpg" alt="My image" class="about_me-img" />
+    </section>
+
+    <!-- My work -->
+    <section class="my-work" id="work">
+      <h2 class="section_title-work">My work</h2>
+      <p class="section_subtitle-work">A selection of my range of work</p>
+
+      <div class="portfolio">
+        <!-- Portfolio item 01-->
+        <a href="portfolio-item-01.html" class="portfolio_item">
+          <img src="python-programming-minimalism-grey-technology-hd-wallpaper-preview.jpeg" alt="" class="portfolio_img" />
+        </a>
+
+        <!-- Portfolio item 02-->
+        <a href="portfolio-item-02.html" class="portfolio_item">
+          <img src="thumb-1920-486291.jpeg" alt="" class="portfolio_img" />
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="mailto:aniruddhapanda2020@gmail.com" class="footer_link">helloAni@gmail</a>
+      <ul class="social-list">
+        <li>
+          <a
+            class="social-list_item"
+            href="https://www.linkedin.com/in/aniruddha-panda-18b35b1bb/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a class="social-list_item" href="https://github.com/Panda-Ani" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="social-list_item"
+            href="https://www.facebook.com/aniruddh.panda/" target="_blank"
+            ><i class="fa fa-facebook-square"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            class="social-list_item"
+            href="https://www.instagram.com/i._aniruddha/" target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
